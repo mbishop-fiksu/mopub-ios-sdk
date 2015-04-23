@@ -18,6 +18,7 @@
 @end
 
 @implementation MPMRAIDBannerCustomEvent
+@dynamic delegate;
 
 - (void)requestAdWithSize:(CGSize)size customEventInfo:(NSDictionary *)info
 {
